@@ -1,6 +1,6 @@
-/*document.querySelector('html').onclick = function() {
+document.querySelector('html').onclick = function() {
   alert("Try clicking the title image! ٩(๑òωó๑)۶");
-}*/
+}
 
 let myImage = document.querySelector('img');
 
