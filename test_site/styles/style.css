@@ -1,0 +1,44 @@
+html {
+  /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 25px;
+  /* Google fonts 输出的 CSS */
+  font-family: 'Neucha';
+  background-color: #333333;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 0 20px 20px 20px;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+p, li, h1, h2 {
+  color: rgb(155, 160, 241);
+
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: rgb(155, 160, 241);
+  text-shadow: 3px 3px 1px rgb(211, 211, 211);
+}
+
+p, li {
+  /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: rgb(255, 217, 0);
+  border: 1px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+}
